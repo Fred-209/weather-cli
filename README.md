@@ -1,6 +1,6 @@
 # Weather CLI
 
-A simple command line tool to check weather stats from [IOpenWeatherMap](https://openweathermap.org).
+A simple command line tool to check weather stats from [OpenWeatherMap](https://openweathermap.org).
 
 ## Installation Instructions
 
@@ -11,7 +11,7 @@ OpenWeatherMap API key required for usage.
 3. Create a `.env` file in root directory and add entry for your API key: `OPENWEATHER_API_KEY=<API Key Here>`
 4. Add entry for DEFAULT_LOCATION in form of "city_name, state" like "Houston, Tx" in `.env` file: `DEFAULT_LOCATION="Houston, Tx"`
 
-- This is the location that will be used when you type `weather` in the console with no extra arguments, so set it to a location you'd like this shortcut to
+- This is the location that will be used when you type `weather` in the console with no extra arguments, so set it to a location you'd like to have a shortcut for.
 
 5. Make this program executable in Linux by running `chmod +x weather.js`
 6. Create a symbolic link to this file with `sudo ln -s weather.js /usr/local/bin/weather`

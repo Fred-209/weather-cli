@@ -2,6 +2,8 @@
 
 A simple command line tool to check weather stats from [OpenWeatherMap](https://openweathermap.org).
 
+![Weather CLI](assets/images/example.png)
+
 ## Installation Instructions
 
 OpenWeatherMap API key required for usage.
